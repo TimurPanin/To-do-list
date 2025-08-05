@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#667eea">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>📝 Todo List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="media/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <div class="todo-container">
+            <div class="header">
+                <h1>📝 Todo List</h1>
+                <p class="subtitle">Организуйте свои задачи</p>
+            </div>
+
+            <form class="add-form" id="addForm">
+                <div class="input-group">
+                    <input
+                        type="text"
+                        id="todoInput"
+                        placeholder="Добавить новую задачу..."
+                        class="todo-input"
+                    />
+                    <button type="submit" class="add-button">
+                        +
+                    </button>
+                </div>
+            </form>
+
+            <div class="stats" id="stats">
+                <span>Выполнено: <span id="completedCount">0</span> из <span id="totalCount">0</span></span>
+                <div class="progress-bar" id="progressBar" style="display: none;">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+
+            <div class="todos-list" id="todosList">
+                <div class="empty-state">
+                    <div class="empty-icon">📋</div>
+                    <p>Нет задач</p>
+                    <span>Добавьте свою первую задачу выше</span>
+                </div>
+            </div>
+
+            <div class="footer" id="footer" style="display: none;">
+                <button class="clear-all-button" id="clearAllBtn">
+                    Очистить все
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html> 
