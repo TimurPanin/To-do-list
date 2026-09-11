@@ -6,7 +6,7 @@ A small **learning project** for practicing task-management UI and browser persi
 
 The repository contains two stages of the project:
 
-- a legacy vanilla HTML/CSS/JavaScript implementation in the repository root;
+- a legacy vanilla HTML, CSS and JavaScript implementation in the repository root;
 - a React 18 rewrite under `src/`.
 
 The React version is the main development version. The older static implementation is kept as part of the project's learning history and for the original GitHub Pages demo.
@@ -28,8 +28,8 @@ The React version is the main development version. The older static implementati
 ### React version
 
 - **React 18**
-- **JavaScript / JSX**
-- **Create React App / react-scripts**
+- **JavaScript and JSX**
+- **Create React App (`react-scripts`)**
 - **CSS**
 - **Lucide React**
 - **localStorage**
