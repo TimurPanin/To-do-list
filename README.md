@@ -1,51 +1,79 @@
-# 📝 Todo List на React
+# Todo List
 
-Современное приложение для управления задачами, созданное на React с красивым дизайном.
+A small **learning project** for practicing task-management UI and browser persistence.
 
-## ✨ Возможности
+The repository contains two stages of the project:
 
-- ✅ Добавление новых задач
-- ✅ Отметка задач как выполненных
-- ✅ Редактирование существующих задач
-- ✅ Удаление задач
-- ✅ Прогресс-бар выполнения
-- ✅ Сохранение в localStorage
-- ✅ Адаптивный дизайн
-- ✅ Анимации и переходы
-- ✅ Современный UI/UX
+- a legacy vanilla HTML/CSS/JavaScript implementation in the repository root;
+- a React 18 rewrite under `src/`.
 
-## 🚀 Запуск
+The React version is the main development version. The older static implementation is kept as part of the project's learning history and for the original GitHub Pages demo.
 
-1. Установите зависимости:
+## Implemented features
+
+- Add tasks
+- Mark tasks as completed
+- Edit task text
+- Delete individual tasks
+- Clear all tasks
+- Completion counter and progress bar
+- Browser persistence with `localStorage`
+- Responsive styling
+- Lucide icons in the React version
+
+## Tech stack
+
+### React version
+
+- **React 18**
+- **JavaScript / JSX**
+- **Create React App / react-scripts**
+- **CSS**
+- **Lucide React**
+- **localStorage**
+
+### Legacy version
+
+- HTML
+- CSS
+- Vanilla JavaScript
+
+## Project structure
+
+```text
+src/                 React application source
+public/              React public assets
+index.html            Legacy static entry point
+css/                  Legacy styles
+js/                   Legacy JavaScript
+media/                Legacy responsive styles
+```
+
+## Run the React version locally
+
+### Requirements
+
+- Node.js 18+
+- npm
+
+### Install
+
 ```bash
 npm install
 ```
 
-2. Запустите приложение:
+### Development server
+
 ```bash
 npm start
 ```
 
-3. Откройте [http://localhost:3000](http://localhost:3000) в браузере.
+### Production build
 
-## 🛠 Технологии
+```bash
+npm run build
+```
 
-- React 18
-- CSS3 с современными возможностями
-- Lucide React для иконок
-- LocalStorage для сохранения данных
+## Scope
 
-## 📱 Адаптивность
-
-Приложение полностью адаптивно и работает на всех устройствах:
-- Desktop
-- Tablet
-- Mobile
-
-## 🎨 Дизайн
-
-- Современный минималистичный дизайн
-- Градиентные фоны и кнопки
-- Плавные анимации и переходы
-- Glassmorphism эффекты
-- Интуитивный пользовательский интерфейс 
+This repository is intentionally presented as a compact learning project rather than a production task-management application. Its purpose is to demonstrate basic React state handling, CRUD-style UI interactions, local persistence and responsive frontend styling.
