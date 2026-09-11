@@ -1,5 +1,7 @@
 # Todo List
 
+[![CI](https://github.com/TimurPanin/To-do-list/actions/workflows/ci.yml/badge.svg)](https://github.com/TimurPanin/To-do-list/actions/workflows/ci.yml)
+
 A small **learning project** for practicing task-management UI and browser persistence.
 
 The repository contains two stages of the project:
@@ -73,6 +75,8 @@ npm start
 ```bash
 npm run build
 ```
+
+GitHub Actions verifies dependency installation, the test command and the production build on pushes and pull requests to `main`.
 
 ## Scope
 
